@@ -1,0 +1,9 @@
+.card {
+    border: none;
+    background-color: transparent;
+    color: #fff; /* White text color */
+  }
+  
+  .card-title {
+    color: #fff; /* Adjust card title color */
+  }

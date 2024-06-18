@@ -1,0 +1,42 @@
+/* src/custom.css */
+
+/* Existing custom styles */
+
+.navbar-custom {
+    background-color: rgba(0, 0, 0, 0.8); /* Dark background with 80% opacity */
+  }
+  
+  .navbar-custom .navbar-nav .nav-link,
+  .navbar-custom .navbar-brand {
+    color: rgba(255, 255, 255, 0.8); /* White text with 80% opacity */
+  }
+  
+  .navbar-custom .navbar-nav .nav-link:hover,
+  .navbar-custom .navbar-brand:hover {
+    color: rgba(255, 255, 255, 1); /* Solid white text on hover */
+  }
+  
+  .navbar-custom .form-control {
+    background-color: rgba(255, 255, 255, 0.8); /* Input background with 80% opacity */
+    color: #000; /* Black text inside input */
+  }
+  
+  .navbar-custom .btn-outline-success {
+    color: rgba(255, 255, 255, 0.8); /* Button text with 80% opacity */
+    border-color: rgba(255, 255, 255, 0.8); /* Button border with 80% opacity */
+  }
+  
+  .navbar-custom .btn-outline-success:hover {
+    color: rgba(255, 255, 255, 1); /* Solid white text on hover */
+    border-color: rgba(255, 255, 255, 1); /* Solid white border on hover */
+  }
+  
+  /* Add the custom style for the navbar toggler icon */
+  .navbar-custom .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.8); /* Border color with 80% opacity */
+  }
+  
+  .navbar-custom .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.8%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+  
